@@ -1,0 +1,74 @@
+body {
+  background-image: url("https://phonewallpaperhd.com/wp-content/uploads/2020/09/Food-iPhone-7-Wallpaper-HD.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+body:hover {
+  background-image: url("https://3diphonewallpaper.com/wp-content/uploads/2020/09/iPhone-Wallpaper-HD-Food.jpg");
+  background-size: cover;
+}
+
+.col-md-3 {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin: 20px 25px 20px 25px !important;
+  background-color: azure;
+  -webkit-transition: background-color 0.6s ease-in;
+  transition: background-color 0.6s ease-in;
+}
+.col-md-3:hover {
+  background-color: black;
+  color: wheat;
+}
+#myitems p {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#nav-elements {
+  text-align: center;
+  padding: 10px;
+}
+
+#navbar {
+  background-color: black;
+  position: static;
+}
+
+#title {
+  font-size: 30px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+ul li {
+  list-style-type: none;
+  color: white;
+  -webkit-transition: background-color 0.6s ease-in;
+  transition: background-color 0.6s ease-in;
+}
+ul li:hover {
+  font-size: xx-large !important;
+  background-color: rgb(144, 144, 229);
+  cursor: pointer;
+}
+#nt {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
