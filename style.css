@@ -1,9 +1,9 @@
 body {
-  background-image: url("https://phonewallpaperhd.com/wp-content/uploads/2020/09/Food-iPhone-7-Wallpaper-HD.jpg");
+  background-image: url("https://th.bing.com/th/id/R.c56ad1e98837052ab98fd621404a5fe3?rik=5kUPKnttioMbxg&riu=http%3a%2f%2fwww.fishmarket-lamargo.com%2fimage%2fcache%2fcatalog%2fribe%2fPANIRANE+PLJESKAVICE%2fPLJESKAVICE4-771x1000.jpg&ehk=%2bvxA7wHC4HNi%2bPkj37AnlGQR6h2HY27LL70aB3st6pE%3d&risl=&pid=ImgRaw&r=0");
   background-size: cover;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  /* height: 100vh; */
 }
 body:hover {
   background-image: url("https://3diphonewallpaper.com/wp-content/uploads/2020/09/iPhone-Wallpaper-HD-Food.jpg");
@@ -39,6 +39,11 @@ body:hover {
 
 #title {
   font-size: 30px;
+  background-color: white;
+  color:black;
+  padding-left: 20px;
+  padding-right: 20px;
+  left: 0px;
 }
 ul {
   display: flex;
@@ -68,7 +73,8 @@ ul li:hover {
   font-size: 10px;
 
   width: 100%;
-  position: relative;
+  position: fixed;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
